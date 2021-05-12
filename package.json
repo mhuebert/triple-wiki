@@ -1,0 +1,7 @@
+{ "scripts": {
+  "release": "shadow-cljs release web"
+},
+  "dependencies": {
+    "shadow-cljs": "^2.12.6"
+  }
+}

@@ -1,0 +1,10 @@
+{:deps true
+ :dev-http {8008 "public"}
+ :builds
+ {:web
+  {:target :browser
+   :modules {:web {:init-fn wiki.triple/init}}
+   :output-dir "public/js"
+   :asset-path "/js"
+
+   }}}
